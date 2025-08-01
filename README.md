@@ -30,6 +30,7 @@ This project implements a **digital cricket scoreboard** using Verilog. It track
 ## 💡 Problem Statement
 
 Manual scorekeeping in cricket is prone to human error and inefficiency. This project proposes a **Verilog-based digital scoreboard** that can automate the scoring process based on simple binary inputs representing match events.
+<img src="flowchart.png" width="500"/>
 
 ---
 
@@ -56,7 +57,7 @@ Manual scorekeeping in cricket is prone to human error and inefficiency. This pr
 |---------------------|----------------------------------|
 | `keepscore.v`       | Main Verilog module              |
 | `keepscore_tb.v`    | Testbench for simulation         |
-| `DSD_CRICKETSCOREBOARD_REPORT.docx` | Project documentation |
+
 
 ---
 
@@ -65,10 +66,7 @@ Manual scorekeeping in cricket is prone to human error and inefficiency. This pr
 - **Tool Used:** ModelSim / Vivado / GTKWave
 - **Testing:** Covered wide range of events (1–6 runs, wide, no-ball, wicket)
 - **Reset Condition:** Resets the entire scoreboard state
-- **Result:** Accurate over-tracking and run calculation with visual waveforms
-
-### 🔍 Sample Waveform Output  
-<img src="images/waveform_output.png" width="500"/>
+- **Result:** Accurate over-tracking and run calculation with visual waveform.
 
 ---
 
@@ -107,6 +105,3 @@ The Cricket Score Keeper built using Verilog is a practical demonstration of dig
 
 ---
 
-## 🧾 License
-
-This project is licensed under the [MIT License](LICENSE).
